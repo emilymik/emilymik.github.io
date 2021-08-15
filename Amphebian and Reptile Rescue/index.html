@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Amphibian and Reptile Rescue</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Amphibian and Reptile Rescue, a non-profit organization
+		that helps save and rehome herpetiles.">
+	<link href="arr.css" rel="stylesheet">
+	<link rel="icon" href="images/arricon.ico" type="image/x-icon">
+</head>
+<body>
+	<header>
+	<div id="headerTop">
+		<section id="headerSocials">
+			<ul>
+				<li><img src="images/icons/facebook.gif" alt="Facebook Link"></li>
+				<li><img src="images/icons/instagram.gif" alt="Instagram Link"></li>
+				<li><img src="images/icons/twitter.gif" alt="Twitter Link"></li>
+				<li><img src="images/icons/youtube.gif" alt="Youtube Link"></li>
+			</ul>
+		</section>
+	</div>
+	<div id="headerBottom">
+		<a href="index.html"><img id="logo" src="images/arr-logo.gif" alt="ARR Logo"></a>
+		<nav>
+			<ul>
+				<li><a href="comingsoon.html">ABOUT</a>
+					<ul>
+						<li><a href="comingsoon.html">About Us</a></li>
+						<li><a href="comingsoon.html">Newsletter</a></li>
+						<li><a href="comingsoon.html">Happy Tails</a></li>
+						<li><a href="comingsoon.html">Meet the Team</a></li>
+					</ul>
+				</li>
+				<li><a href="comingsoon.html">VOLUNTEER</a>
+					<ul>
+						<li><a href="comingsoon.html">Foster</a></li>
+						<li><a href="comingsoon.html">Volunteer</a></li>
+						<li><a href="comingsoon.html">FAQs</a></li>
+					</ul>
+				</li>
+				<li><a href="comingsoon.html">SUPPORT US</a>
+					<ul>
+						<li><a href="comingsoon.html">Donate</a></li>
+						<li><a href="comingsoon.html">Store</a></li>
+						<li><a href="comingsoon.html">Our Wishlist</a></li>
+						<li><a href="comingsoon.html">Our Supporters</a></li>
+					</ul>
+				</li>
+				<li><a href="comingsoon.html">WHAT'S NEW?</a>
+					<ul>
+						<li><a href="comingsoon.html">In the News</a></li>
+						<li><a href="comingsoon.html">Events</a></li>
+						<li><a href="comingsoon.html">Education</a></li>
+					</ul>
+				</li>
+				<li id="green"><a href="comingsoon.html">DONATE</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="images/slideshow1.jpg" alt="Chameleon" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/slideshow2.jpg" alt="Lizard being held" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/slideshow3.jpg" alt="Green Snake" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/slideshow4.jpg" alt="Happy Lizard" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/slideshow5.jpg" alt="Turtle" style="width:100%">
+		</div>
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+		<span class="dot" onclick="currentSlide(4)"></span> 
+		<span class="dot" onclick="currentSlide(5)"></span> 
+	</div>
+	</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+	</script>
+	<main class="wrapper">
+		<a href="comingsoon.html"><div class="dropShadow" id="topDonate">
+			Donate Now to Help
+		</div></a>
+	    <div class="horizontal">
+			<section class="spacing">
+				<a href="comingsoon.html"><img class="dropShadow" src="images/Adopt.jpg" alt="Adopt"></a>
+			</section>
+			<section class="spacing">
+				<a href="comingsoon.html"><img class="dropShadow" src="images/Foster.jpg" alt="Foster"></a>
+			</section>
+			<section class="spacing">
+				<a href="comingsoon.html"><img class="dropShadow" src="images/Volunteer.jpg" alt="Volunteer"></a>
+			</section>
+		</div>
+		<hr>
+		<div id="mission">
+			<h1>We ARR</h1>
+			<p>A non-profit organization dedicated to the rescue of 
+				amphibians and reptiles in Utah. Our mission is to 
+				better the quality of life for abandoned and injured
+				herpetiles by transporting them safely, finding them 
+				temporary homes within our foster network, making sure 
+				they are healthy and adjusted, and ultimately placing 
+				them into their perfect forever home.
+			</p>
+		</div>
+	</main>
+	<div class="horizontal" id="news">
+		<div class="news spacing box">
+			<h3>Recent Posts</h3><br>
+			<a href="comingsoon.html"><p>Common Reptile Care Mistakes</p></a>
+			<a href="comingsoon.html"><p>Common Pet Reptile Illnesses</p></a>
+			<a href="comingsoon.html"><p>Should I feed my Snake Rats or...</p></a>
+			<a href="comingsoon.html"><h5 class="bottom">SEE MORE</h5></a>
+		</div>
+		<div class="news spacing box">
+			<h3>Upcoming Events</h3><br>
+			<a href="comingsoon.html"><p>July 19: Reptile Week</p></a>
+			<a href="comingsoon.html"><p>August 3: What are Amphibians?</p></a>
+			<a href="comingsoon.html"><p>August 20: Over the Slither and Through the Woods</p></a><br>
+			<a href="comingsoon.html"><h5 class="bottom">SEE MORE</h5></a>
+		</div>
+	</div>
+	<div id="helpUs">
+		<h1 class="center">Help Us Save Herpetiles</h1>
+		<div class="horizontal2" id="circleDonate">
+			<figure class="spacing2">
+				<a href="comingsoon.html" class="fix"><img src="images/donate25.png" alt="Donate $25"></a>
+				<figcaption>Medicine for One</figcaption>
+			</figure>
+			<figure class="spacing2">
+				<a href="comingsoon.html" class="fix"><img src="images/donate50.png" alt="Donate $50"></a>
+				<figcaption>Food for Five</figcaption>
+			</figure>
+			<figure class="spacing2">
+				<a href="comingsoon.html" class="fix"><img src="images/donate100.png" alt="Donate $100"></a>
+				<figcaption>Vet Visit</figcaption>
+			</figure>
+			<figure class="spacing2">	
+				<a href="comingsoon.html" class="fix"><img src="images/donate500.png" alt="Donate $500"></a>
+				<figcaption>Lifesaving Surgery</figcaption>
+			</figure>
+		</div>
+		<div class="horizontal2">
+			<section class="spacing2">
+				<a href="comingsoon.html"><img src="images/donate-today.gif" alt="Donate today"></a>
+			</section>
+			<section class="spacing2">
+				<a href="comingsoon.html"><img src="images/donate-monthly.gif" alt="Donate monthly"></a>
+			</section>
+		</div>
+	</div>
+	<footer>
+	<div class="horizontal3" id="footerTop">
+			<section id="aboutUs" class="spacing3">
+				<h2>About Us</h2>
+					<ul>
+						<li><a href="comingsoon.html">Newsletter</a></li>
+						<li><a href="comingsoon.html">Happy Tails</a></li>
+						<li><a href="comingsoon.html">Meet the Team</a></li>
+						<li><a href="comingsoon.html">Contact Us</a></li>
+					</ul>
+			</section>
+			<section id="volunteer" class="spacing3">
+				<h2>Volunteer</h2>
+					<ul>
+						<li><a href="comingsoon.html">Foster</a></li>
+						<li><a href="comingsoon.html">Volunteer</a></li>
+						<li><a href="comingsoon.html">FAQs</a></li>
+					</ul>
+			</section>
+			<section id="support" class="spacing3">
+				<h2>Support</h2>
+					<ul>
+						<li><a href="comingsoon.html">Donate</a></li>
+						<li><a href="comingsoon.html">Store</a></li>
+						<li><a href="comingsoon.html">Our Wishlist</a></li>
+						<li><a href="comingsoon.html">Sponsors</a></li>
+					</ul>
+			</section>
+			<section id="learn" class="spacing3">
+				<h2>Learn</h2>
+					<ul>
+						<li><a href="comingsoon.html">In the News</a></li>
+						<li><a href="comingsoon.html">Events</a></li>
+						<li><a href="comingsoon.html">Education</a></li>
+					</ul>
+			</section>
+	</div>
+		<hr>
+    <div id="footerBottom">
+			<section id="arrInfo">
+				Amphibian and Reptile Rescue<br>
+				123 Fake Street<br>
+				Fakesville, UT 12345<br>
+				123.456.7890<br>
+				info@email.com<br><br>
+				EIN: 00-0000000<br>
+				Amphibian and Reptile Rescue is a 501(c)(3) nonprofit organization.
+			</section>
+			<section id="footerSocials">
+				<ul>
+					<li><img src="images/icons/sq-facebook.gif" alt="Facebook Link"></li>
+					<li><img src="images/icons/sq-instagram.gif" alt="Instagram Link"></li>
+					<li><img src="images/icons/sq-twitter.gif" alt="Twitter Link"></li>
+					<li><img src="images/icons/sq-youtube.gif" alt="Youtube Link"></li>
+				</ul>
+			</section>
+			<a href='javascript:void();' 
+				onclick="alert('ARR! You found me! Come in to recieve a small gift from us!');">
+				<img id="hidden" src="images/pirate-flag.gif" alt="Hidden button">
+			</a>
+	</div>
+			<p id="copyright">&copy; 2021 Amphibian and Reptile Rescue</p>
+	</footer>
+</body>
+</html>
