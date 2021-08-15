@@ -1,0 +1,83 @@
+/* this page is all messed up on browsers other then chrome 
+and I think it's cause of the aligning issue we were having. 
+Unsure how to fix it */
+
+#contactform {
+  font-family:	Arial, Geneva, sans-serif;
+  font-size:	small;
+  margin: 0px;
+}
+form {
+  margin: auto;
+  vertical-align: top;
+  width: 532px;
+  padding: 10px;
+  border: thin dotted black;
+  background-color: #646464;
+  text-align: left;
+  color: white;
+}
+div.tableRow {
+  display: table-row;
+}
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
+  display: table-cell;
+  vertical-align: top;
+  padding: 3px;
+}
+div.tableRow label:first-child {
+	text-align: right;
+}
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+}
+legend {
+	font-weight: bold;
+}
+
+#contactus {
+  background-color: #eaeaea;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#thankyou {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  width: 532px;
+  height: 427px;
+  padding: 10px;
+  border: thin dotted black;
+  background-color: #646464;
+  text-align: center;
+  color: white;
+}
+
+.wrapper {
+	text-align: center;
+}
+/* No matter what I try, I cannot get section#thankyou to center with the rest of the row.
+It's like it's completely ignoring it's a rule. */
+
+#contactimage {
+	border: thin solid black;
+	margin: 10px;
+}
+#top {
+	background-color: #eaeaea;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer {
+  font-family:	Arial, Geneva, sans-serif;
+  font-size:	small;
+}
+

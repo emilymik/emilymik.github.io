@@ -1,0 +1,158 @@
+@font-face {
+	font-family: "Doubt";
+	src: fonts/doubt.tff format("truetype");
+}
+
+
+body {
+  font-family:	Arial, Geneva, sans-serif;
+  font-size:	small;
+}
+
+div.tableContainer {
+  display: 	table;
+  margin-right: 0;
+  width: 100%;
+}
+div.tableRow {
+  display: 	table-row;
+}
+section {
+  display: 	table-cell;
+}
+section ul li {
+  display: 	inline;
+}
+
+header {
+  display: table-cell;
+}
+#headerTop {
+	background-color: #fafafa;
+	height: 49px;
+	
+}
+#headerTop ul li {
+  padding: 	0px 5px 0px 5px;
+}
+
+section#social-icons-top {
+  margin-left: -40px;
+  list-style: none;
+  vertical-align: top;
+  position: absolute;
+  	background-color: #fafafa;
+}
+section#cart {
+  float: right;
+  list-style-type: none;
+  padding: 	0px 5px 0px 5px;
+  vertical-align: top;
+  	background-color: #fafafa;
+}
+nav {
+  background-color: #fafafa;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 	5px 0px 5px 0px;
+}
+nav ul li {
+  display: 	inline;
+  padding: 	5px 60px 5px 60px;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: 	#646464;
+  font-size:	130%;
+  text-decoration: none;
+  font-weight: 	bold;
+}
+
+#logo {
+	margin-top: 10px;
+	clear: both;
+}
+h4 {
+  font-size:	180%;
+  font-weight:	bold;
+  margin: 0px 0px 0px 10px;
+}
+h2 {
+  text-align: left;
+}
+h1 {
+	font-size: 250%;
+	text-align: center;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img#main {
+	width: 80%;
+}
+
+#clickpic {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+section#left-pic {
+  width:	33%;
+  padding: 	15px;
+  vertical-align: top;
+}
+section#mid-pic {
+  width:	33%;
+  padding: 	15px;
+  vertical-align: top;
+}
+section#right-pic {
+  width:	33%;
+  padding: 	15px;
+  vertical-align: top;
+}
+
+footer {
+  background-color: black;
+  color:	white;
+  text-align:	center;
+  padding:	15px;
+  font-size:	90%;
+  clear: both;
+}
+footer ul li a:link, footer ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+footer ul {
+  margin-left: -40px;
+}
+footer ul li {
+  display: list-item;
+  list-style-type: none;
+  text-align: left;
+  padding-top: 5px 
+}
+footer section#social-icons-bottom ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 	0px 5px 0px 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+use to keep header on screen
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ */

@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+  .gallery {
+    width: 100%;
+  }
+}
+/* use flex property to make this better? */
+
+div.gallery {
+  background-color: #eaeaea;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 270px;
+  position: relative;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/* If I decide to add descriptions
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+*/
+
+div.gallerypage {
+	width: 1152px;
+	margin: auto;
+}

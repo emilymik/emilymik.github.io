@@ -1,0 +1,114 @@
+#products-top {
+	background-color: #eaeaea;
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#glaze, #toppings, #drizzle {
+  background-color: #eaeaea;
+  border-style: dotted; 
+  border-color: #c9c9c9;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+.bodyimage {
+	border: thin solid black;
+	margin: 10px;	
+}
+#glazepic, .toppingspic, #drizzlepic {
+	padding: 10px;
+}
+#toppings {
+	padding-bottom: 20px;
+}
+.toppingspic {
+	border: hidden;
+}
+#glazelist, #toppingslist, #drizzlelist {
+	font-size: medium;
+	 margin: auto;
+  vertical-align: top;
+  width: 532px;
+ }
+
+.productslist h2 {
+	 font-family: "Doubt", Arial, Geneva, sans-serif;
+	 font-size: 200%;
+	 font-weight: bold;
+	 text-align: center;
+ }
+ 
+ .split {
+	display: inline-block;
+	margin: auto;
+}
+section.productslist p.column {
+	padding-right: 30px;
+}
+section.productslist p {
+ display: inline-block;
+ text-align: center;
+
+}
+
+#wrapper {
+	background-color: #eaeaea;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+table {
+	caption-side: bottom;
+	border: thin solid black;
+	border-collapse: collapse;
+	width: 50%;
+}
+td, th {
+  border: thin dotted gray;
+  padding: 5px 15px 5px 15px;
+}
+caption {
+  font-style: italic;
+  padding-top: 8px;
+}
+th {
+  background-color: #a8a8a8;
+}
+.cellcolor {
+  background-color: #c9c9c9;
+}
+.centerprice {
+	text-align: center;
+}
+.centertable {
+  margin-left: auto;
+  margin-right: auto;
+}
+#prices {
+	margin-bottom: 25px;
+}
+hr {
+	width: 90%;
+}
+
+#specialty_prices p {
+	width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+span.dots {
+	flex: 1;
+	border-bottom: 1px dotted;
+}
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/

@@ -1,0 +1,18 @@
+#aboutus {
+  background-color: #eaeaea;
+  margin-bottom: 10px;
+  padding: 10px 10px 0px 10px;
+}
+#founder {
+	float: left;
+	border: thin solid black;
+	vertical-align: top;
+	margin: 10px;
+}
+#abouttext {
+    font-size: medium;
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+padding: 0px 10px 0px 10px;	
+}
